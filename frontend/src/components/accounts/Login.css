@@ -5,14 +5,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #a6b9ff;
+  background-color:aqua;
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   align-items: center;
   border-radius: 5px;
 }

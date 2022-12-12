@@ -18,20 +18,16 @@ function Home() {
           <PayDate />
         </div>
         <div>
-          <Count />
         </div>
         <div>
-          <Events />
+        <Count />
+
         </div>
       </div>
       <div className="Home__mainCol"></div>
       <div>
-        <Calender />
-        <Task />
       </div>
       <div>
-        <Wishes />
-        <News />
       </div>
     </div>
   );

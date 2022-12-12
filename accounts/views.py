@@ -20,6 +20,7 @@ class AdminUserViewSet(viewsets.ViewSet):
         return Response({"message": "logout successfully"}, status=200)
 
     def create(self, request):
+        print("Hello world")
         serializer = AdminLoginSerializer(data=request.data)
 
         if serializer.is_valid():
