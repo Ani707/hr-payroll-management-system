@@ -6,5 +6,6 @@ from .utils import news
 
 
 class NewsViewSet(viewsets.ViewSet):
+    
     def list(self, request):
         return Response(news, status=200)
